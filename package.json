@@ -1,14 +1,18 @@
 {
-	"name": "SampleTruffleProject",
-	"version": "0.1",
-	"description": "Should be replaced with appropriate one",
-	"author": "Zerion <inbox@zerion.io>",
-	"license": "GNU GENERAL PUBLIC LICENSE",
-	"private": true,
-	"dependencies": {
-
-		"ethereumjs-testrpc": "^4.1.3",
-		"truffle": "^3.4.7"
-
-	}
+  "name": "SampleTruffleProject",
+  "version": "0.1",
+  "description": "Should be replaced with appropriate one",
+  "author": "Zerion <inbox@zerion.io>",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "private": true,
+  "dependencies": {
+    "ethereumjs-testrpc": "^4.1.3",
+    "truffle": "^3.4.7",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
