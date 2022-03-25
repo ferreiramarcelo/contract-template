@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@snyk/protect@^1.883.0":
+  version "1.883.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.883.0.tgz#048015d4e0f1c18b6abc7e2773b6374b620bd399"
+  integrity sha512-N/EqG6P/qNYWOfuZAfGS1d7yGwGY4zV7AvKtgTzdhazDt7G/mRLG6czLSWNWGEFYBiMsYRVPHdc5It3bjhmIGw==
+
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -2020,7 +2025,7 @@ tough-cookie@~2.3.0:
   dependencies:
     punycode "^1.4.1"
 
-truffle@^3.4.11:
+truffle@^3.4.7:
   version "3.4.11"
   resolved "https://registry.yarnpkg.com/truffle/-/truffle-3.4.11.tgz#c4aa12bd512c741a0fd2f6e922e6cd69cda97acb"
   integrity sha512-DT5nArmVW0wPCPMCHrYyVrhBbTiA2VLTOXIbbHULHTCJSFOSsDK6EDKA2nrtzq3fZ6i++ZS34iIjLNY27dBLXQ==
